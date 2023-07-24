@@ -15,14 +15,14 @@ const PortfolioSite: React.FC<Props> = ({ siteUrl, title, imgPath }) => {
       <h4 className="text-amber-100 pb-2 text-xs pl-1">
         (click image to visit)
       </h4>
-      <div className="w-fit ">
+      <div className="max-w-sm max-h-sm hover:max-w-xl hover:max-h-xl">
         <Link href={siteUrl} target="_blank">
           <Image
             src={imgPath}
-            alt="my wiki site"
-            width={500}
-            height={500}
-            className="rounded-lg"
+            alt={title}
+            width={800}
+            height={800}
+            className="rounded-lg hover:w-800 w-500 h-500"
           />
         </Link>
       </div>
