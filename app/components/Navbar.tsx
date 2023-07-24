@@ -15,7 +15,7 @@ export default function Navbar() {
           <span className="text-amber-50/90 font-light no-underline hover:text-white">
             Nathan Schrader
           </span>
-          <span className="text-white/90 text-base font-thin no-underline hover:text-white">
+          <span className="text-white/90 text-lg font-thin no-underline hover:text-white">
             Software Engineer
           </span>
           <div className="flex items-center mt-1 text-lime-300 text-base font-light no-underline hover:text-white">
