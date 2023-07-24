@@ -5,6 +5,7 @@ import { SiSemanticuireact, SiTypescript } from "react-icons/si";
 import { BiLogoAws } from "react-icons/bi";
 import { HiCloud } from "react-icons/hi";
 import Image from "next/image";
+import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
@@ -15,7 +16,7 @@ export default function Navbar() {
             Nathan Schrader
           </span>
           <span className="text-white/90 text-base font-thin no-underline hover:text-white">
-            Fullstack Engineer II
+            Software Engineer
           </span>
           <div className="flex items-center mt-4 text-lime-300 text-base font-light no-underline hover:text-white">
             <SiSemanticuireact color={"black"} />
@@ -63,6 +64,24 @@ export default function Navbar() {
             target="_blank"
           >
             <FaGithub />
+          </Link>
+          <Link
+            className="text-white/90 hover:text-white"
+            href="https://docs.google.com/document/d/1IAlkWuqKBJjJPUrFMFUhM9mbzCHNOx9Nvx903IsuWf8/edit?usp=sharing"
+            target="_blank"
+          >
+            <Image
+              alt="resume icon"
+              src={"/images/resume-icon.png"}
+              width={80}
+              height={70}
+              className={styles.svgFilter}
+              style={{
+                height: "fit-content",
+                margin: "0",
+                marginLeft: "-10px",
+              }}
+            />
           </Link>
         </div>
       </div>

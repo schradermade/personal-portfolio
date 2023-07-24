@@ -11,9 +11,9 @@ export default function Home() {
         </span>
         <div className="w-3/4 max-w-lg">
           <span className="text-lg text-amber-50">
-            You can find samples of web apps I&apos;ve built below. I&apos;ve
-            worked with startups big and small, building out greenfield React
-            and Next apps.
+            I build full stack web apps, mostly in React and Next. Find samples
+            of my work below. I&apos;ve worked in the insurance and AI
+            industries designing SaaS apps built to serve 100k+ users.
           </span>
         </div>
       </p>
