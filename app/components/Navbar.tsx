@@ -67,7 +67,7 @@ export default function Navbar() {
           </Link>
           <Link
             className="text-white/90 hover:text-white"
-            href="https://drive.google.com/file/d/12LXXgxdaSrbo0WNgMD0YYSkRX99tMyNP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1V-OzjyYyNkUdyyngNYabG5b7y-dkMJM7/view?usp=sharing"
             target="_blank"
           >
             <Image
