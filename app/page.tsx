@@ -14,8 +14,8 @@ export default function Home() {
             I build full stack web apps.
             <span className="text-xl font-medium my-4">
               Team player, excellent communication and collaboration skills with
-              a track record of working cross-functionally in agile
-              environments.
+              a track record of working cross-functionally in agile, remote,
+              distributed environments.
             </span>
             Find samples of my work below.
           </span>
