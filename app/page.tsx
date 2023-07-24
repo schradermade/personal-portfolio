@@ -10,10 +10,14 @@ export default function Home() {
           <PiHandWavingThin size={40} />
         </span>
         <div className="w-3/4 max-w-lg">
-          <span className="text-lg text-amber-50">
-            I build full stack web apps, mostly in React and Next. Find samples
-            of my work below. I&apos;ve worked in the insurance and AI
-            industries designing SaaS apps built to serve 100k+ users.
+          <span className="flex flex-col text-lg text-amber-50 mt-4">
+            I build full stack web apps.
+            <span className="text-xl font-medium my-4">
+              Team player, excellent communication and collaboration skills with
+              a track record of working cross-functionally in agile
+              environments.
+            </span>
+            Find samples of my work below.
           </span>
         </div>
       </p>
