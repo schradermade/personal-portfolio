@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center">
       <p className="flex flex-col items-center mt-12 mb-12 text-3xl font-light text-center dark:text-white">
-        <span className="flex place-content-center mb-2">
+        <span className="flex place-content-center mb-2 text-lime-400">
           Hi,&nbsp;I&apos;m Nathan&nbsp;
-          <PiHandWavingThin />
+          <PiHandWavingThin size={40} />
         </span>
         <div className="w-3/4 max-w-lg">
           <span className="text-lg text-amber-50">
