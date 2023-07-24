@@ -9,16 +9,16 @@ import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
-    <nav className="bg-slate-600 p-4 sticky top-0 drop-shadow-xl z-10">
+    <nav className="bg-slate-600 p-4 pb-2 sticky top-0 drop-shadow-xl z-10">
       <div className="prose prose-xl mx-auto flex justify-between sm:flex-row ">
-        <h1 className="text-3xl font-bold text-white grid place-content-center mb-2 md:mb-0 ">
+        <h1 className="text-3xl font-bold text-white grid place-content-center mb-0">
           <span className="text-amber-50/90 font-light no-underline hover:text-white">
             Nathan Schrader
           </span>
           <span className="text-white/90 text-base font-thin no-underline hover:text-white">
             Software Engineer
           </span>
-          <div className="flex items-center mt-4 text-lime-300 text-base font-light no-underline hover:text-white">
+          <div className="flex items-center mt-1 text-lime-300 text-base font-light no-underline hover:text-white">
             <SiSemanticuireact color={"black"} />
             &nbsp;React.js 18
           </div>
