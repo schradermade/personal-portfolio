@@ -6,13 +6,14 @@ export default function Home() {
     <main className="flex flex-col items-center">
       <p className="flex flex-col items-center mt-12 mb-12 text-3xl font-light text-center dark:text-white">
         <span className="flex place-content-center mb-2">
-          Hi,&nbsp;I'm Nathan&nbsp;
+          Hi,&nbsp;I&apos;m Nathan&nbsp;
           <PiHandWavingThin />
         </span>
         <div className="w-3/4 max-w-lg">
           <span className="text-lg text-amber-50">
-            You can find samples of web apps I've built below. I've worked with
-            startups big and small, building out greenfield React and Next apps.
+            You can find samples of web apps I&apos;ve built below. I&apos;ve
+            worked with startups big and small, building out greenfield React
+            and Next apps.
           </span>
         </div>
       </p>
