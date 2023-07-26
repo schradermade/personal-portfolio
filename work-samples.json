@@ -1,0 +1,19 @@
+{
+  "samples": [
+    {
+      "title": "Cleveland Apartment Brokers",
+      "siteUrl": "https://clevelandapartmentbrokers.com",
+      "imgPath": "/images/cleveland-apt-brokers.png"
+    },
+    {
+      "title": "Wiki Results",
+      "siteUrl": "https://main.d1rfafshxnyxgf.amplifyapp.com",
+      "imgPath": "/images/wiki-results.png"
+    },
+    {
+      "title": "Tualatin Tek Club",
+      "siteUrl": "https://tualatintekclub.com",
+      "imgPath": "/images/tualatin-tek-club.png"
+    }
+  ]
+}

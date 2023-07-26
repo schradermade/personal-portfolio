@@ -1,6 +1,8 @@
 import { PiHandWavingThin } from "react-icons/pi";
 import PortfolioSite from "./components/PortfolioSite";
 import styles from "./page.module.css";
+import data from "../work-samples.json";
+import PortfolioSamples from "./components/PortfolioSamples";
 
 export default function Home() {
   return (
@@ -24,21 +26,7 @@ export default function Home() {
           </span>
         </div>
       </p>
-      <PortfolioSite
-        title="Cleveland Apartment Brokers"
-        siteUrl="https://clevelandapartmentbrokers.com"
-        imgPath="/images/cleveland-apt-brokers.png"
-      />
-      <PortfolioSite
-        title="Wiki Results"
-        siteUrl="https://main.d1rfafshxnyxgf.amplifyapp.com"
-        imgPath="/images/wiki-results.png"
-      />
-      <PortfolioSite
-        title="Tualatin Tek Club"
-        siteUrl="https://tualatintekclub.com"
-        imgPath="/images/tualatin-tek-club.png"
-      />
+      <PortfolioSamples />
     </main>
   );
 }
