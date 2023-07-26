@@ -1,17 +1,39 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 
 export default function MyProfilePic() {
+  const [userHovering, setUserHovering] = useState(false);
   return (
-    <section className="w-full mx-auto">
-      <Image
-        className="border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
-        src={"/images/profile-pic.png"}
-        width={200}
-        height={200}
-        alt="Nathan"
-        priority={true}
-      />
-    </section>
+    <>
+      <section
+        className="w-fit mx-auto"
+        onMouseOver={() => setUserHovering(true)}
+        onMouseLeave={() => setUserHovering(false)}
+      >
+        {!userHovering ? (
+          <Image
+            className={
+              "border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
+            }
+            src={"/images/profile-pic.png"}
+            width={200}
+            height={200}
+            alt="picture of nathan"
+            priority={true}
+          />
+        ) : (
+          <Image
+            className="border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
+            src={"/images/ogre2.jpeg"}
+            width={300}
+            height={300}
+            alt="picture of ogre"
+            priority={true}
+          />
+        )}
+      </section>
+    </>
   );
 }
