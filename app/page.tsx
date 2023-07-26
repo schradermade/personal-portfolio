@@ -1,5 +1,6 @@
 import { PiHandWavingThin } from "react-icons/pi";
 import PortfolioSite from "./components/PortfolioSite";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -7,7 +8,9 @@ export default function Home() {
       <p className="flex flex-col items-center mt-12 mb-12 text-3xl font-light text-center dark:text-white">
         <span className="flex place-content-center mb-2 text-lime-400">
           Hi,&nbsp;I&apos;m Nathan&nbsp;
-          <PiHandWavingThin size={40} />
+          <span className={styles.wave}>
+            <PiHandWavingThin size={40} />
+          </span>
         </span>
         <div className="w-3/4 max-w-lg">
           <span className="flex flex-col text-lg text-amber-50 mt-4">
