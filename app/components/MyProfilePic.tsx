@@ -15,20 +15,20 @@ export default function MyProfilePic() {
         {!userHovering ? (
           <Image
             className={
-              "border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
+              "border-black dark:border-slate-500 drop-shadow-xl shadow-black mx-auto mt-8"
             }
             src={"/images/profile-pic.png"}
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             alt="picture of nathan"
             priority={true}
           />
         ) : (
           <Image
-            className="border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
-            src={"/images/ogre2.jpeg"}
-            width={300}
-            height={300}
+            className="border-black dark:border-slate-500 drop-shadow-xl shadow-black mx-auto mt-8"
+            src={"/images/ogre-no-bg.png"}
+            width={352}
+            height={352}
             alt="picture of ogre"
             priority={true}
           />
