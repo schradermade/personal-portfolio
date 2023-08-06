@@ -11,6 +11,7 @@ const PortfolioSamples = () => {
               title={sample.title}
               siteUrl={sample.siteUrl}
               imgPath={sample.imgPath}
+              description={sample.description}
             />
           </>
         );

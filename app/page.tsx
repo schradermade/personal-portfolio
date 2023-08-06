@@ -1,7 +1,5 @@
 import { PiHandWavingThin } from "react-icons/pi";
-import PortfolioSite from "./components/PortfolioSite";
 import styles from "./page.module.css";
-import data from "../work-samples.json";
 import PortfolioSamples from "./components/PortfolioSamples";
 
 export default function Home() {
