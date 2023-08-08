@@ -1,5 +1,5 @@
 import data from "../../work-samples.json";
-import PortfolioSite from "./PortfolioSite";
+import Project from "./Project";
 
 const PortfolioSamples = () => {
   return (
@@ -7,7 +7,7 @@ const PortfolioSamples = () => {
       {data["samples"].map((sample) => {
         return (
           <>
-            <PortfolioSite
+            <Project
               title={sample.title}
               siteUrl={sample.siteUrl}
               imgPath={sample.imgPath}

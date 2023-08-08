@@ -9,8 +9,8 @@ import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
-    <nav className="bg-slate-600 p-4 pb-2 sticky top-0 drop-shadow-xl z-10">
-      <div className="prose prose-xl mx-auto flex justify-between sm:flex-row ">
+    <nav className="bg-slate-600 bg-opacity-95 p-4 pb-2 sticky top-0 drop-shadow-xl z-10">
+      <div className="flex justify-between mx-8 sm:flex-row xs:mx-0">
         <h1 className="text-3xl font-bold text-white grid place-content-center mb-0">
           <span className="text-amber-50/90 font-light no-underline hover:text-white">
             Nathan Schrader
@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
         </h1>
 
-        <div className="flex flex-row justify-start  align-middle gap-4 text-white text-5xl xs:flex-col">
+        <div className="flex flex-col justify-between text-5xl ">
           <Link
             className="text-white/90 hover:text-white"
             href="https://www.linkedin.com/in/schradermade/"
