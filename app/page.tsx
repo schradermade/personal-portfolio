@@ -1,6 +1,6 @@
 import { PiHandWavingThin } from "react-icons/pi";
 import styles from "./page.module.css";
-import PortfolioSamples from "./components/PortfolioSamples";
+import ProjectList from "./components/ProjectList";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         </span>
         <div className="w-3/4 max-w-lg">
           <span className="flex flex-col text-lg text-amber-50 mt-4">
-            I build full stack web apps.
+            I&apos;m a full stack engineer.
             <span className="text-xl font-medium my-4">
               Team player, excellent communication and collaboration skills with
               a track record of working cross-functionally in agile, remote,
@@ -24,7 +24,7 @@ export default function Home() {
           </span>
         </div>
       </p>
-      <PortfolioSamples />
+      <ProjectList />
     </main>
   );
 }

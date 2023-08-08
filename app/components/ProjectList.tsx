@@ -1,7 +1,7 @@
 import data from "../../work-samples.json";
 import Project from "./Project";
 
-const PortfolioSamples = () => {
+const ProjectList = () => {
   return (
     <>
       {data["samples"].map((sample) => {
@@ -20,4 +20,4 @@ const PortfolioSamples = () => {
   );
 };
 
-export default PortfolioSamples;
+export default ProjectList;
