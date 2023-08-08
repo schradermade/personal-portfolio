@@ -25,7 +25,7 @@ export default function Navbar() {
             );
           })}
         </h1>
-        <div className="flex flex-col justify-between items-center py-2 rounded text-5xl bg-gray-600 shadow-2xl border border-gray-500">
+        <div className="flex flex-col justify-between items-center py-2 rounded text-5xl bg-slate-700 shadow-2xl border border-slate-600">
           <Link
             className="text-gray-300 hover:text-white"
             href="https://www.linkedin.com/in/schradermade/"
@@ -41,7 +41,7 @@ export default function Navbar() {
             <FaGithub />
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1V-OzjyYyNkUdyyngNYabG5b7y-dkMJM7/view?usp=sharing"
+            href="https://docs.google.com/document/d/1IAlkWuqKBJjJPUrFMFUhM9mbzCHNOx9Nvx903IsuWf8/edit?usp=sharing"
             target="_blank"
           >
             <Image
