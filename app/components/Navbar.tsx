@@ -41,7 +41,7 @@ export default function Navbar() {
             <FaGithub />
           </Link>
           <Link
-            href="https://docs.google.com/document/d/1IAlkWuqKBJjJPUrFMFUhM9mbzCHNOx9Nvx903IsuWf8/edit?usp=sharing"
+            href="https://drive.google.com/file/d/11LtIRTqYyBVJoBFgQ2sTvRgUd6_1-FOT/view?usp=sharing"
             target="_blank"
           >
             <Image
