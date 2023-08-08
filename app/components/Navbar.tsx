@@ -25,7 +25,7 @@ export default function Navbar() {
             );
           })}
         </h1>
-        <div className="flex flex-col justify-between items-center py-2 rounded text-5xl bg-gray-700 shadow-2xl border border-gray-600">
+        <div className="flex flex-col justify-between items-center py-2 rounded text-5xl bg-gray-600 shadow-2xl border border-gray-500">
           <Link
             className="text-gray-300 hover:text-white"
             href="https://www.linkedin.com/in/schradermade/"
