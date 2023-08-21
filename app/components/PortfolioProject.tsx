@@ -7,9 +7,16 @@ type Props = {
   title: string;
   imgPath: string;
   description?: string;
+  features: string;
 };
 
-const Project: React.FC<Props> = ({ siteUrl, title, imgPath, description }) => {
+const PortfolioProject: React.FC<Props> = ({
+  siteUrl,
+  title,
+  imgPath,
+  description,
+  features,
+}) => {
   return (
     <Link
       href={siteUrl}
@@ -20,9 +27,14 @@ const Project: React.FC<Props> = ({ siteUrl, title, imgPath, description }) => {
       <p className="text-gray-50 text-xs pl-1 pb-4">
         (click to visit live site)
       </p>
-      <h2 className="text-gray-50 pl-1">DESCRIPTION:</h2>
       <div className="w-full">
+        <h2 className="text-gray-50 pl-1">Tech:</h2>
         <h3 className="text-gray-50 pl-1 pb-4">{description}</h3>
+      </div>
+      <div className="w-full">
+        <h2 className="text-gray-50 pl-1">User Features:</h2>
+
+        <h3 className="text-gray-50 pl-1 pb-4">{features}</h3>
       </div>
       <div className="max-w-xl">
         <Image
@@ -37,4 +49,4 @@ const Project: React.FC<Props> = ({ siteUrl, title, imgPath, description }) => {
   );
 };
 
-export default Project;
+export default PortfolioProject;

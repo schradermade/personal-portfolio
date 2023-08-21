@@ -1,6 +1,6 @@
 import { PiHandWavingThin } from "react-icons/pi";
 import styles from "./page.module.css";
-import ProjectList from "./components/ProjectList";
+import PortfolioList from "./components/PortfolioList";
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
           </span>
         </div>
       </p>
-      <ProjectList />
+      <PortfolioList />
     </main>
   );
 }

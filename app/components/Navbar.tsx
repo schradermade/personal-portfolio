@@ -2,11 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
-import { twMerge } from "tailwind-merge";
 
 import styles from "./Navbar.module.css";
-import techItems from "../../tech-items.json";
 import TechItem from "./TechItem";
+import { TechItemProps, techItems } from "../../constants/tech-items";
 
 export default function Navbar() {
   return (
@@ -19,7 +18,7 @@ export default function Navbar() {
           <span className="text-white/90 text-lg font-thin no-underline">
             Software Engineer
           </span>
-          {techItems["items"].map(({ label, svgComponent }) => {
+          {techItems.map(({ label, svgComponent }: TechItemProps) => {
             return (
               <TechItem key={label} label={label} svgComponent={svgComponent} />
             );
