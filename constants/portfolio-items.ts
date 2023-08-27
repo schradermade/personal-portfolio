@@ -7,6 +7,16 @@ export type PortfolioProjectProps = {
 };
 
 export const PortfolioProjects: PortfolioProjectProps[] = [
+    {
+    title: "Professional Dashboard - Single Page App",
+    siteUrl:
+      "https://my-dashboard-smoky.vercel.app/",
+    imgPath: "/images/prof-dashboard.png",
+    description:
+      "Professional Dashboard SPA, React v18 frontend, SyncFusion UI Component lib, hosted on Vercel.",
+    features:
+      "Dashboard shows off Syncfusions powerful UI components in a full single page app with BrowserRouter / React Router.",
+  },
   {
     title: "Signal Messenger - Single Page App",
     siteUrl:
